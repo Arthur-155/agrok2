@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Mockup.css';
 import logo from "./assets/image/logoAgrok.jpeg";
+import './index.css'
 
 export default function App() {
     const [currentApp, setCurrentApp] = useState('home');
