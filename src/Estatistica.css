@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 85%;
+    max-width: 1000px;
+    padding: 20px;
+    text-align: center;
+}
+
+div{
+    background-color: #c1e1b2;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.drop-zone {
+    margin-top: 180px;
+    border: 2px dashed #7b7b7b;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #eaf2e0;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.drop-zone:hover {
+    background-color: #c1e1b0;
+}
+
+.drop-zone.dragover {
+    background-color: #c1e1b0;
+}
+
+button {
+    background-color: #7dbf6f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #65a24f;
+}
+
+h2 {
+    color: #4b8a3d;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #5d5d5d;
+}
+
+.bar-chart {
+    display: flex;
+    margin: 30px 0;
+}
+
+p strong {
+    color: #4b8a3d;
+}
