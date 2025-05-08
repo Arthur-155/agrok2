@@ -1,0 +1,117 @@
+.agrok-container {
+    font-family: Arial, sans-serif;
+    background-color: #f6f4ef;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #2e3d2f;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .agrok-container * {
+    box-sizing: inherit;
+  }
+  
+  .agrok-header {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .agrok-logo {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .agrok-header h1 {
+    font-size: 2.5rem;
+    color: #2f5933;
+    margin-bottom: 10px;
+  }
+  
+  .agrok-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .agrok-buttons {
+    margin-bottom: 40px;
+  }
+  
+  .agrok-buttons a {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px;
+    transition: all 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #2f5933;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #244527;
+  }
+  
+  .btn-outline {
+    border: 2px solid #2f5933;
+    color: #2f5933;
+  }
+  
+  .btn-outline:hover {
+    background-color: #dcebd7;
+  }
+  
+  .agrok-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 960px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+  }
+  
+  .feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 280px;
+    flex: 1 1 250px;
+  }
+  
+  .feature-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #2f5933;
+  }
+  
+  .feature-desc {
+    font-size: 0.95rem;
+    color: #444;
+  }
+  
+  @media (max-width: 600px) {
+    .agrok-header h1 {
+      font-size: 2rem;
+    }
+  
+    .agrok-buttons a {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+  

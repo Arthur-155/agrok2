@@ -1,12 +1,18 @@
-// src/App.jsx
 import React from "react";
-import Estatistica from "./Estatistica"; // ou "./Estatistica" se estiver na raiz
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Estatistica from "./Estatistica";
+import Home from "./Home";
+import Mockup from './Mockup';
 
 function App() {
   return (
-    <div>
-      <Estatistica />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Estatistica" element={<Estatistica />} />
+        <Route path="/Mockup" element={<Mockup />} />
+      </Routes>
+    </Router>
   );
 }
 
