@@ -2,7 +2,6 @@ import React, { useState, useRef } from "react";
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid
 } from "recharts";
-import { Html5Qrcode } from "html5-qrcode";
 import "./Estatistica.css";
 import { Link } from "react-router-dom";
 import logo from "./assets/image/logoAgrok.jpeg";
